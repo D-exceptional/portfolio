@@ -1,27 +1,22 @@
-# Salone - Free Bootstrap 5 Business Template 
+# My Portfolio
+This is a clean portfolio showcasing my programming journey and all the works I've delivered.
 
-- [Demo](https://themewagon.github.io/Electro-Bootstrap/)
+## Live Demo
+https://builds.iceiy.com/shopcity
 
-#### Download
+## Key Sections
+- About Me
+- Services
+- Software Development Tools
+- Graphic Design Tools
+- Educational Background
+- Programming Experience
+- Graphic Works
+- Contact Me
 
-- [Download from ThemeWagon](https://themewagon.com/themes/electro-bootstrap/)
+## Technologies Used
+- Frontend: HTML, CSS, Bootstrap, Font Awesome, JavaScript
+- Pop-ups: SweetAlert2
 
-## Getting Started
-
-Clone Repository
-
-```
-https://github.com/themewagon/Electro-Bootstrap.git
-```
-
-## Author
-
-```
-Salone is developed by Team HTML Codex.
-```
-
-## License
-
-- Design and Code is Copyright &copy; [HTML Codex](https://htmlcodex.com/).
-- Licensed cover under [MIT]
-- Distributed by [ThemeWagon](https://themewagon.com)
+## Why I Built This
+To showcase my programming journey in a single comprehensive collection.
