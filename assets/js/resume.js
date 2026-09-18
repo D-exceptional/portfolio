@@ -1,21 +1,27 @@
 (function ($) {
-    ("use strict");
+  "use strict";
 
-    $(".back-to-top").fadeOut();
+  const scrollButton = $(".back-to-top");
 
-  // Back to top button
-  $(window).scroll(function () {
+  // Show / hide button on scroll
+  $(window).on("scroll", function () {
     if ($(this).scrollTop() > 300) {
-      $(".back-to-top").fadeIn("slow");
+      scrollButton.stop(true, true).fadeIn(200);
     } else {
-      $(".back-to-top").fadeOut("slow");
+      scrollButton.stop(true, true).fadeOut(200);
     }
   });
-    
-  $(".back-to-top").click(function () {
-      $("html, body").animate({ scrollTop: 0 }, 1500, "easeInOutExpo");
-      $(".back-to-top").fadeOut("slow");
-     return false;
+
+  // Smooth scroll to top
+  scrollButton.on("click", function (e) {
+    e.preventDefault();
+
+    $("html, body").stop(true).animate(
+      {
+        scrollTop: 0
+      },
+      500
+    );
   });
-    
+
 })(jQuery);
